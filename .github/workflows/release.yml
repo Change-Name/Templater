@@ -1,9 +1,6 @@
 name: Plugin release
 
-on:
-    push:
-        tags:
-            - "*"
+on: workflow_dispatch
 
 jobs:
     build:
